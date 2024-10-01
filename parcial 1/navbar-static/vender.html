@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vender Churros</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Formulario de Venta de Churros</h1>
+    <form action="vender.php" method="POST">
+        <label for="cantidad">Cantidad de churros:</label>
+        <input type="number" id="cantidad" name="cantidad" required><br><br>
+
+        <label for="tipo">Tipo de churro:</label>
+        <select id="tipo" name="tipo" required>
+            <option value="arequipe">Arequipe</option>
+            <option value="bocadillo">Bocadillo</option>
+            <option value="jamon">Jamón</option>
+        </select><br><br>
+
+        <input type="submit" value="Vender">
+    </form>
+</body>
+</html>

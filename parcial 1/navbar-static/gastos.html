@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Gastos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Formulario de Gastos</h1>
+    <form action="gastos.php" method="POST">
+        <label for="concepto">Concepto del gasto:</label>
+        <input type="text" id="concepto" name="concepto" required><br><br>
+
+        <label for="valor">Valor del gasto:</label>
+        <input type="number" id="valor" name="valor" required><br><br>
+
+        <input type="submit" value="Guardar Gasto">
+    </form>
+</body>
+</html>
